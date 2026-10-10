@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ff4d79">
+<title>For Nicole ❤️</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Great+Vibes&display=swap" rel="stylesheet">
+<style>
+:root{--pink:#ff4d79;--rose:#ff91ad;--cream:#fff7fa;--ink:#3b2330;--soft:#ffe1ea}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:"DM Sans",sans-serif;background:var(--cream);color:var(--ink);overflow-x:hidden}
+button,input,select,textarea{font:inherit}button{cursor:pointer;border:0}
+.hero{min-height:100svh;display:flex;align-items:center;justify-content:center;text-align:center;padding:32px 20px;color:white;background:radial-gradient(circle at 20% 20%,#ffb4c7,transparent 35%),linear-gradient(145deg,#d81b60,#ff4d79 60%,#ff9db7);position:relative;overflow:hidden}
+.hero:before,.hero:after{content:"♡";position:absolute;color:#ffffff25;font-size:clamp(180px,40vw,420px);pointer-events:none}.hero:before{left:-70px;top:-70px;transform:rotate(-20deg)}.hero:after{right:-65px;bottom:-140px;transform:rotate(15deg)}
+.hero-inner{position:relative;z-index:1;max-width:700px}.eyebrow{text-transform:uppercase;letter-spacing:3px;font-size:.75rem;font-weight:700;opacity:.9}.script{font-family:"Great Vibes",cursive;font-weight:400}.hero h1{font-size:clamp(4.5rem,16vw,8.5rem);line-height:1;margin:18px 0}.hero p{font-size:1.1rem;line-height:1.8;max-width:520px;margin:0 auto 24px}.btn{display:inline-flex;justify-content:center;align-items:center;gap:8px;padding:14px 22px;border-radius:999px;font-weight:700;transition:transform .2s,box-shadow .2s}.btn:hover{transform:translateY(-2px);box-shadow:0 10px 25px #5b173020}.btn-light{background:#fff;color:#c2185b}.btn-pink{background:var(--pink);color:white}.btn-outline{background:white;border:1px solid #ffd0dd;color:#b52457}.btn-dark{background:#3b2330;color:white}.small{font-size:.9rem;color:#80616f}.section{padding:70px 18px;scroll-margin-top:20px}.section.alt{background:#fff0f5}.wrap{width:min(900px,100%);margin:auto}.section-head{text-align:center;margin-bottom:28px}.section-head .script{font-size:clamp(2.8rem,9vw,4.5rem);color:var(--pink);line-height:1.1}.section-head p{line-height:1.7;color:#795967}.card{background:#fff;border:1px solid #ffe0e9;border-radius:26px;padding:clamp(20px,5vw,34px);box-shadow:0 15px 45px #8c234010;margin:18px 0}.center{text-align:center}.music-card{display:grid;grid-template-columns:80px 1fr;gap:18px;align-items:center}.album{height:80px;border-radius:20px;display:grid;place-items:center;background:linear-gradient(145deg,#ff4d79,#7a1745);font-size:2rem;color:white}.music-card h3{margin:0 0 5px}.music-card p{margin:0 0 12px;color:#80616f;font-size:.92rem}.progress{height:5px;background:#ffe0e9;border-radius:20px;overflow:hidden;margin-top:12px}.progress span{display:block;height:100%;width:0;background:var(--pink);transition:width .3s}.chips{display:flex;gap:9px;flex-wrap:wrap;justify-content:center}.chip{border:1px solid #ffd0dd;background:white;border-radius:99px;padding:9px 13px;color:#a12755}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.tile{background:white;border:1px solid #ffe0e9;border-radius:20px;padding:20px 14px;text-align:center;min-height:140px}.tile button{margin-top:12px}.emoji{font-size:2rem}.tile h3{margin:8px 0}.tile p{color:#80616f;font-size:.92rem;line-height:1.5}.question{background:linear-gradient(145deg,#fff,#fff0f5);border:1px solid #ffd9e4;border-radius:26px;padding:24px;text-align:center}.counter{color:#c23b68;font-size:.82rem;font-weight:700;letter-spacing:1px;text-transform:uppercase}.question h3{font-size:clamp(1.25rem,4vw,1.8rem);line-height:1.5}.answers{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:22px}.response{display:none;margin-top:20px;padding:16px;background:#ffe7ef;border-radius:18px;line-height:1.7}.response.show{display:block;animation:pop .35s ease}.promise{display:flex;gap:14px;align-items:flex-start}.promise .icon{font-size:1.7rem}.promise p{margin:5px 0 0;line-height:1.65;color:#745866}.promise h3{margin:0}.field{display:grid;gap:7px;margin:14px 0}.field label{font-weight:700;font-size:.92rem}.field input,.field select,.field textarea{width:100%;border:1px solid #f1c4d2;background:#fffafb;border-radius:13px;padding:13px;color:var(--ink)}.field textarea{min-height:90px;resize:vertical}.date-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.date-option{padding:16px;border-radius:17px;background:#fff;border:1px solid #f5cada;text-align:left;color:var(--ink)}.date-option.selected{border:2px solid var(--pink);background:#fff0f5}.date-option b{display:block;margin:6px 0}.date-option span{font-size:.9rem;color:#80616f;line-height:1.5}.final{background:linear-gradient(145deg,#b81752,#ff4d79,#ff9db7);color:white;text-align:center;padding:85px 20px}.final h2{font-size:clamp(3.4rem,12vw,6rem);line-height:1;margin:12px 0}.final p{max-width:620px;margin:15px auto;line-height:1.9}.footer{text-align:center;padding:25px;color:#947887;font-size:.82rem}.music-toggle{position:fixed;right:14px;bottom:14px;z-index:15;background:#3b2330;color:#fff;border-radius:999px;padding:12px 16px;box-shadow:0 8px 25px #0002;font-weight:700}.music-status{font-size:.8rem;opacity:.9;margin-top:5px}.floating-heart{position:fixed;bottom:-30px;z-index:10;pointer-events:none;animation:floatUp 4s linear forwards}.toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);background:#3b2330;color:white;padding:13px 18px;border-radius:14px;z-index:20;max-width:90vw;box-shadow:0 10px 30px #0002;display:none}.toast.show{display:block;animation:pop .25s ease}@keyframes floatUp{to{transform:translateY(-110vh) rotate(35deg);opacity:0}}@keyframes pop{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}@media(max-width:520px){.grid,.date-grid{grid-template-columns:1fr}.music-card{grid-template-columns:64px 1fr}.album{height:64px}.section{padding:55px 15px}.btn{padding:13px 17px}.tile{min-height:0}}
+</style>
+</head>
+<body>
+<audio id="loveSong" src="headlights.mp3" preload="auto" loop></audio>
+<button class="music-toggle" onclick="toggleMusic()" aria-label="Toggle background music">♫ Music</button>
+<header class="hero" id="top">
+  <div class="hero-inner">
+    <div class="eyebrow">A little corner of the internet, just for you</div>
+    <h1 class="script">Nicole <span aria-hidden="true">♡</span></h1>
+    <p>I made you something you can explore slowly. Tap the surprises, answer honestly, and remember that you are loved more than these words can explain.</p>
+    <button class="btn btn-light" onclick="openSurprise()">Open My Surprise ❤️</button>
+    <p style="font-size:.85rem;margin-top:18px">Made with love by Kelvin ❤️ · Scroll to begin</p>
+  </div>
+</header>
+
+<section class="section" id="music">
+ <div class="wrap">
+  <div class="section-head"><div class="script">First, a little soundtrack</div><p>For the mood, play <b>“Headlights” by Alan Walker</b>. Choose an official source below; playback needs internet.</p></div>
+  <div class="card music-card">
+   <div class="album">♫</div>
+   <div><h3>Headlights</h3><p>Alan Walker · Your song for this little moment</p>
+    <p class="small">Tap “Open My Surprise” on the welcome screen to start your local audio file.</p>
+    <button class="btn btn-pink" onclick="toggleMusic()">Play / Pause music ♫</button>
+    <div class="progress"><span id="musicProgress"></span></div>
+    <div class="music-status" id="musicStatus">Ready when you are ❤️</div>
+   </div>
+  </div>
+  <p class="small center">For playback, upload your own permitted audio file as headlights.mp3 beside this HTML file when publishing the website.</p>
+ </div>
+</section>
+
+<section class="section alt" id="letter">
+ <div class="wrap">
+  <div class="section-head"><div class="script">A message from my heart</div><p>Read this whenever you need a reminder of what you mean to me.</p></div>
+  <div class="card" style="line-height:1.95">
+   <p>My dearest Nicole, ❤️</p>
+   <p>Sometimes I wonder how one person can make ordinary moments feel so special. Then I think of you, and somehow the answer feels simple. There is something about your presence that makes me smile, something about your voice that stays with me, and something about the thought of us that makes me hopeful.</p>
+   <p>I don't promise that every day will be perfect. I promise that I want to keep learning you: what makes you laugh, what worries you, what dreams you carry quietly, and what helps you feel safe and appreciated. I want us to be able to talk honestly, laugh at silly things, and work through difficult moments with patience.</p>
+   <p>You don't have to be cheerful every day or pretend to have everything figured out. You can be yourself with me. I want to celebrate your good days and listen gently on the hard ones. Your feelings matter, your voice matters, and your dreams matter.</p>
+   <p>This website is small, but the thought behind it is sincere. I hope it makes you smile, reminds you that someone is thinking of you, and gives you a few little surprises to keep.</p>
+   <p><b>With love, always choosing kindness,</b><br><span class="script" style="font-size:2.3rem;color:var(--pink)">Kelvin ❤️</span></p>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="surprises">
+ <div class="wrap">
+  <div class="section-head"><div class="script">Little boxes, little feelings</div><p>Tap every gift to unlock a message. There are no wrong choices here. 💝</p></div>
+  <div class="grid">
+   <div class="tile"><div class="emoji">💌</div><h3>A tiny love note</h3><p>Something for your heart.</p><button class="btn btn-outline" onclick="reveal('note1',this)">Open gift</button><div class="response" id="note1">If I could give you one thing, it would be the chance to see yourself through my eyes for a moment — so you could understand how wonderfully you stand out. ❤️</div></div>
+   <div class="tile"><div class="emoji">🎁</div><h3>A reminder</h3><p>For days when you doubt yourself.</p><button class="btn btn-outline" onclick="reveal('note2',this)">Open gift</button><div class="response" id="note2">You are worthy of care, patience, laughter, respect, and beautiful things. Never forget that your value doesn't depend on having a perfect day. 🌷</div></div>
+   <div class="tile"><div class="emoji">🌙</div><h3>Late-night thought</h3><p>A thought just for you.</p><button class="btn btn-outline" onclick="reveal('note3',this)">Open gift</button><div class="response" id="note3">If we were together right now, I would want us to put our phones down for a while, talk about everything and nothing, laugh at our own jokes, and make a memory worth keeping. ✨</div></div>
+   <div class="tile"><div class="emoji">💗</div><h3>One more thing</h3><p>The simplest truth.</p><button class="btn btn-outline" onclick="reveal('note4',this)">Open gift</button><div class="response" id="note4">Out of all the messages you could receive today, I hope this one reminds you that you are thought of, appreciated, and cared for. — Your favorite person ❤️</div></div>
+  </div>
+ </div>
+</section>
+
+<section class="section alt" id="questions">
+ <div class="wrap">
+  <div class="section-head"><div class="script">Can I ask you something?</div><p>Choose YES or NO for each one. Both answers are welcome — the fun is in sharing the moment, not in getting a particular answer.</p></div>
+  <div class="question">
+   <div class="counter" id="qCounter">Question 1 of 8</div>
+   <h3 id="questionText">Nicole, would you let me plan a small date that is all about making you smile?</h3>
+   <div class="answers"><button class="btn btn-pink" onclick="answer('yes')">YES 💖</button><button class="btn btn-outline" onclick="answer('no')">NO 🙈</button></div>
+   <div class="response" id="answerResponse" role="status" aria-live="polite"></div>
+   <div class="answers"><button class="btn btn-dark" id="nextQuestion" style="display:none" onclick="nextQ()">Next question →</button></div>
+  </div>
+  <p class="small center">Your answers stay on this page; they are not secretly sent to anyone.</p>
+ </div>
+</section>
+
+<section class="section" id="promises">
+ <div class="wrap">
+  <div class="section-head"><div class="script">Promises I want to keep</div><p>Not impossible promises. Real ones that deserve effort, honesty, and consistency.</p></div>
+  <div class="card promise"><div class="icon">🤍</div><div><h3>I promise to listen</h3><p>I will try to hear what you mean, not just wait for my turn to speak. Your feelings deserve room, even when we see things differently.</p></div></div>
+  <div class="card promise"><div class="icon">🌷</div><div><h3>I promise to respect you</h3><p>Your boundaries, choices, goals, friendships, and individuality matter. Love should feel caring, never controlling.</p></div></div>
+  <div class="card promise"><div class="icon">🫶</div><div><h3>I promise to communicate</h3><p>When something is wrong, I will do my best to speak honestly and kindly instead of letting silence or pride do the talking.</p></div></div>
+  <div class="card promise"><div class="icon">✨</div><div><h3>I promise to celebrate you</h3><p>I want to cheer for your progress, encourage your dreams, and remind you of your strengths when you need a little encouragement.</p></div></div>
+  <div class="card promise"><div class="icon">❤️</div><div><h3>I promise to keep choosing effort</h3><p>Not to claim I will never make a mistake, but to take responsibility, learn, apologize when I need to, and show care through actions.</p></div></div>
+ </div>
+</section>
+
+<section class="section alt" id="date">
+ <div class="wrap">
+  <div class="section-head"><div class="script">Our little date planner</div><p>Nicole, pick the kind of time together that sounds lovely to you. You can suggest the day and add your own idea.</p></div>
+  <div class="card">
+   <h3 class="center">Choose your date vibe 💕</h3>
+   <div class="date-grid" id="dateOptions">
+    <button type="button" class="date-option" data-date="A sunset walk"><div class="emoji">🌅</div><b>Sunset walk</b><span>A relaxed walk, photos, and good conversation.</span></button>
+    <button type="button" class="date-option" data-date="A cozy food date"><div class="emoji">🍟</div><b>Food date</b><span>Share a snack, try something tasty, and laugh together.</span></button>
+    <button type="button" class="date-option" data-date="A movie date"><div class="emoji">🎬</div><b>Movie date</b><span>A film, popcorn, and a little time to unwind.</span></button>
+    <button type="button" class="date-option" data-date="A cute adventure"><div class="emoji">🗺️</div><b>Mini adventure</b><span>Explore somewhere new and make a memory.</span></button>
+    <button type="button" class="date-option" data-date="A quiet talk together"><div class="emoji">☕</div><b>Quiet talk</b><span>A calm place, honest conversation, no pressure.</span></button>
+    <button type="button" class="date-option" data-date="A surprise date"><div class="emoji">🎀</div><b>Surprise me</b><span>You choose the vibe; I can plan the details with you.</span></button>
+   </div>
+   <div class="field"><label for="dateDay">What day works for you?</label><input id="dateDay" type="date"></div>
+   <div class="field"><label for="dateTime">Preferred time</label><select id="dateTime"><option>Afternoon</option><option>Morning</option><option>Evening</option><option>Let's decide together</option></select></div>
+   <div class="field"><label for="datePlace">Place or area (optional)</label><input id="datePlace" placeholder="e.g. somewhere peaceful, or a place you like"></div>
+   <div class="field"><label for="dateExtra">Your own idea or note (optional)</label><textarea id="dateExtra" placeholder="Tell me what would make this date special for you..."></textarea></div>
+   <button class="btn btn-pink" onclick="makeDate()">Make our date suggestion 💌</button>
+   <div class="response" id="dateResult" aria-live="polite"></div>
+   <button class="btn btn-outline" id="copyDate" style="display:none" onclick="copyDatePlan()">Copy date suggestion</button>
+   <p class="small">This is a suggestion builder, not a booking. It doesn't send anything automatically; you can copy the plan and share it with Kelvin.</p>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="finalquestion">
+ <div class="wrap">
+  <div class="section-head"><div class="script">One last question...</div><p>Only answer what feels true to you, Nicole.</p></div>
+  <div class="question">
+   <div class="emoji">💞</div>
+   <h3>Would you like us to keep creating little memories together — at our own pace, with honesty, laughter, patience, and love?</h3>
+   <div class="answers"><button class="btn btn-pink" onclick="finalAnswer(true)">YES, let's make memories ❤️</button><button class="btn btn-outline" onclick="finalAnswer(false)">NOT SURE YET 🌷</button></div>
+   <div class="response" id="finalResponse" aria-live="polite"></div>
+  </div>
+ </div>
+</section>
+
+<footer class="final">
+ <div class="eyebrow">For Nicole, with all my heart</div>
+ <h2 class="script">You are special.</h2>
+ <p>Whatever kind of day you're having, I hope you find a reason to smile. Thank you for being you. I can't promise perfection, but I can promise to keep trying to show my care with patience, respect, and actions.</p>
+ <p style="font-size:1.1rem"><b>Your favorite person ❤️</b><br>Kelvin</p>
+ <button class="btn btn-light" onclick="hearts(24);document.getElementById('top').scrollIntoView({behavior:'smooth'})">Send a little heart shower 💗</button>
+</footer>
+<div class="footer">Made with love for Nicole · A personal page, just for you two.</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+const loveSong=document.getElementById('loveSong');
+function openSurprise(){
+  document.querySelector('#music').scrollIntoView({behavior:'smooth'});
+  loveSong.play().then(()=>{
+    document.getElementById('musicStatus').textContent='Now playing your song ❤️';
+    toast('The surprise has begun, Nicole ❤️🎶');
+  }).catch(()=>{
+    document.getElementById('musicStatus').textContent='Tap Play / Pause music to start the song.';
+    toast('Tap Play / Pause music to allow playback 🎶');
+  });
+  hearts(12);
+}
+function toggleMusic(){
+  if(loveSong.paused){
+    loveSong.play().then(()=>{document.getElementById('musicStatus').textContent='Now playing your song ❤️';}).catch(()=>{toast('Check that headlights.mp3 is uploaded beside index.html.');});
+  }else{
+    loveSong.pause();
+    document.getElementById('musicStatus').textContent='Music paused';
+  }
+}
+loveSong.addEventListener('timeupdate',()=>{
+  if(loveSong.duration && Number.isFinite(loveSong.duration)){
+    document.getElementById('musicProgress').style.width=(loveSong.currentTime/loveSong.duration*100)+'%';
+  }
+});
+const questions=[
+ {q:"Nicole, would you let me plan a small date that is all about making you smile?",yes:"That makes me happy already. I'll put thought into it, and we'll choose something you genuinely enjoy. 💗",no:"That's completely okay. No pressure at all — we can keep dreaming up ideas until one feels right. 🌷"},
+ {q:"Would you like a day where we put distractions aside and really talk?",yes:"I'd love that: stories, laughter, little details, and listening to each other properly. 🫶",no:"No worries. We can find another way to spend time together that feels comfortable for you. 🤍"},
+ {q:"Can I keep sending you little messages to remind you that you matter to me?",yes:"Then expect a few thoughtful messages — not just big words, but little reminders on ordinary days too. 💌",no:"Thank you for being honest. I'll respect your space and check what kind of communication feels good for you. 🌼"},
+ {q:"Would you like us to make a memory together that we can smile about later?",yes:"Let's make it our own kind of memory — even a simple walk or a funny conversation can become something lovely. ✨",no:"That's okay, love. There is no deadline for memories. We can take things one step at a time. 🌙"},
+ {q:"If I had a difficult day, would you be comfortable listening while I talked about it?",yes:"Thank you. And I want that to go both ways: we can listen to each other without needing to fix every problem. 🤍",no:"That's fair. You don't have to carry someone else's feelings every time. We can ask each other what support is possible. 🌷"},
+ {q:"Would you tell me honestly if something I did hurt you, so I can understand and do better?",yes:"I'll do my best to listen without getting defensive. Honest conversations can help us care for each other better. 🫶",no:"I understand that speaking up can be hard. I hope I can help create a safe space, and you can share when you're ready. 💗"},
+ {q:"Would you like us to have a little tradition that belongs just to us?",yes:"Cute idea! It could be a weekly check-in, a favourite song, or a silly inside joke we keep adding to. 🎀",no:"No pressure to create a tradition. The best moments can happen naturally, without a schedule. 🌼"},
+ {q:"One more: are you ready to open the date planner and choose a vibe you like?",yes:"Yesss! The date planner is waiting below. Choose your vibe and add a day that works for you. 💖",no:"That's alright! You can explore the date planner whenever you feel like it, or skip it entirely. 🌸"}
+];
+let qIndex=0,selectedDate="",datePlanText="";
+function reveal(id,btn){const el=document.getElementById(id);el.classList.toggle('show');btn.textContent=el.classList.contains('show')?'Close gift':'Open gift';if(el.classList.contains('show'))hearts(4)}
+function answer(kind){const q=questions[qIndex];const r=document.getElementById('answerResponse');r.textContent=kind==='yes'?q.yes:q.no;r.classList.add('show');document.getElementById('nextQuestion').style.display='inline-flex';hearts(kind==='yes'?7:3)}
+function nextQ(){qIndex++;if(qIndex>=questions.length){document.getElementById('questionText').textContent="You've reached the end of the questions, Nicole. Thank you for playing along. 💗";document.getElementById('qCounter').textContent="All questions explored";document.querySelector('#questions .question .answers').style.display='none';document.getElementById('nextQuestion').style.display='none';return}document.getElementById('questionText').textContent=questions[qIndex].q;document.getElementById('qCounter').textContent=`Question ${qIndex+1} of ${questions.length}`;document.getElementById('answerResponse').classList.remove('show');document.getElementById('nextQuestion').style.display='none'}
+function finalAnswer(yes){const r=document.getElementById('finalResponse');r.textContent=yes?"That makes me smile. Let's make memories with care, honesty, respect, and no pressure to be perfect. One beautiful step at a time. ❤️":"Thank you for being honest. You don't have to rush an answer. Your comfort matters, and we can let things unfold at a pace that feels right. 🌷";r.classList.add('show');if(yes)hearts(16)}
+document.querySelectorAll('.date-option').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.date-option').forEach(b=>b.classList.remove('selected'));btn.classList.add('selected');selectedDate=btn.dataset.date;toast('Date vibe selected: '+selectedDate+' 💗')}));
+function makeDate(){if(!selectedDate){toast('Choose a date vibe first 💕');return}const day=document.getElementById('dateDay').value;const time=document.getElementById('dateTime').value;const place=document.getElementById('datePlace').value.trim();const extra=document.getElementById('dateExtra').value.trim();datePlanText="Nicole's date suggestion 💌\nDate idea: "+selectedDate+"\nPreferred day: "+(day||"Let's decide together")+"\nTime: "+time+"\nPlace/area: "+(place||"Let's choose together")+"\nHer note: "+(extra||"No extra note")+"\n\nLet's agree on the details together, with no pressure. ❤️";const r=document.getElementById('dateResult');r.textContent=datePlanText;r.classList.add('show');document.getElementById('copyDate').style.display='inline-flex';hearts(5)}
+async function copyDatePlan(){try{await navigator.clipboard.writeText(datePlanText);toast('Date suggestion copied! Share it with Kelvin 💌')}catch(e){const t=document.createElement('textarea');t.value=datePlanText;document.body.appendChild(t);t.select();try{document.execCommand('copy');toast('Date suggestion copied! 💌')}catch(err){toast('Please select and copy the suggestion above.')}t.remove()}}
+function hearts(n){for(let i=0;i<n;i++){const h=document.createElement('div');h.className='floating-heart';h.textContent=['💗','💕','💖','♡','❤️'][Math.floor(Math.random()*5)];h.style.left=Math.random()*100+'vw';h.style.fontSize=(18+Math.random()*22)+'px';h.style.animationDuration=(2.5+Math.random()*2.5)+'s';document.body.appendChild(h);setTimeout(()=>h.remove(),5200)}}
+let toastTimer;function toast(msg){const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),2600)}
+// Date input is limited to today or a future day when supported.
+const dateInput=document.getElementById('dateDay');const today=new Date();dateInput.min=new Date(today.getTime()-today.getTimezoneOffset()*60000).toISOString().slice(0,10);
+</script>
+</body>
+</html>
